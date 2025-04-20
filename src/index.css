@@ -1,14 +1,15 @@
-/* 1. Pull in Tailwind’s base, components & utilities */
+/* 4.1 Pull in Tailwind’s base, components & utilities */
 @import "tailwindcss";
 
-/* 2. (Optional) Theme overrides via CSS variables */
+/* 4.2 (Optional) Theme overrides via CSS variables */
 @theme {
   --font-sans: "Inter", sans-serif;
 }
 
-/* 3. (Optional) Custom components/utilities */
+/* 4.3 (Optional) Custom components/utilities */
 @layer components {
   .btn {
     @apply inline-block px-4 py-2 rounded bg-blue-600 text-white;
   }
 }
+
